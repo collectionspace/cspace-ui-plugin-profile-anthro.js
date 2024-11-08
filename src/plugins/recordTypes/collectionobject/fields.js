@@ -843,6 +843,34 @@ export default (configContext) => {
           },
         },
       },
+      'ns2:collectionobjects_objectprod_extension': {
+        [config]: {
+          service: {
+            ns: 'http://collectionspace.org/services/collectionobject/domain/objectprod_extension',
+          },
+        },
+        objectProductionPlacesVerbatim: {
+          [config]: {
+            view: {
+              type: CompoundInput,
+            },
+          },
+          objectProductionPlaceVerbatim: {
+            [config]: {
+              messages: defineMessages({
+                name: {
+                  id: 'field.collectionobjects_objectprod.objectProductionPlaceVerbatim.name',
+                  defaultMessage: 'Production place (verbatim)',
+                },
+              }),
+              repeating: true,
+              view: {
+                type: TextInput,
+              },
+            },
+          },
+        },
+      },
       ...extensions.culturalcare.collectionobject.fields,
       ...extensions.nagpra.collectionobject.fields,
       ...extensions.naturalhistory.collectionobject.fields,
