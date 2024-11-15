@@ -3,7 +3,7 @@ import sidebar from './sidebar';
 
 export default () => ({
   recordTypes: {
-    repatriationclaim: {
+    repatriationrequest: {
       sidebar,
       messages,
     },

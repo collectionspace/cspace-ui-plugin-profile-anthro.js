@@ -9,7 +9,7 @@ import nagprainventory from './nagprainventory';
 import osteology from './osteology';
 import person from './person';
 import place from './place';
-import repatriationclaim from './repatriationclaim';
+import repatriationrequest from './repatriationrequest';
 // import restrictedmedia from './restrictedmedia';
 import summarydocumentation from './summarydocumentation';
 
@@ -25,7 +25,7 @@ export default [
   osteology,
   person,
   place,
-  repatriationclaim,
+  repatriationrequest,
   // restrictedmedia,
   summarydocumentation,
 ];
