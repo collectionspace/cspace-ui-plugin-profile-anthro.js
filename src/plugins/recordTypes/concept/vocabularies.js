@@ -28,17 +28,17 @@ export default {
       name: {
         id: 'vocab.concept.ethculture.name',
         description: 'The name of the ethculture concept vocabulary.',
-        defaultMessage: 'Ethnographic Culture',
+        defaultMessage: 'Cultural Group',
       },
       collectionName: {
         id: 'vocab.concept.ethculture.collectionName',
         description: 'The name of a collection of records from the ethculture concept vocabulary.',
-        defaultMessage: 'Ethnographic Cultures',
+        defaultMessage: 'Cultural Groups',
       },
       itemName: {
         id: 'vocab.concept.ethculture.itemName',
         description: 'The name of a record from the vocabulary.',
-        defaultMessage: 'Ethnographic Culture',
+        defaultMessage: 'Cultural Group',
       },
     }),
     serviceConfig: {
