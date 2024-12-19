@@ -1,5 +1,18 @@
 # Change Log
 
+## v9.0.0
+
+v9.0.0 adds support for CollectionSpace 8.1, and requires cspace-ui version 10.
+
+- Relabel Ethnographic Culture to Cultural Group
+
+### Breaking Changes
+
+- On the record editor form for Object records:
+  - The field Production Place Verbatim (`objectProductionPlacesVerbatim`) has been added. If this version of the anthropology profile is used with an older CollectionSpace server, values entered in these fields will not be saved.
+  - The field Object Count Unit (`objectCountUnit`) has been added to the field group Object Count Group. If this version of the anthropology profile is used with an older CollectionSpace server, values entered in these fields will not be saved.
+  - The field group Publised Related Links (`publishedRelatedLinkGroupList/publishedRelatedLinkGroup`) has been added. If this version of the anthropology profile is used with an older CollectionSpace server, values entered in these fields will not be saved.
+
 ## v8.0.0
 
 v8.0.0 adds support for CollectionSpace 8.0, and requires cspace-ui version 9.
