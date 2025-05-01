@@ -42,26 +42,8 @@ const template = (configContext) => {
         </Row>
 
         <Field name="titleGroupList">
-          <Field name="titleGroup">
-            <Panel>
-              <Row>
-                <Col>
-                  <Field name="title" />
-                  <Field name="titleLanguage" />
-                </Col>
-
-                <Col>
-                  <Field name="titleType" />
-
-                  <Field name="titleTranslationSubGroupList">
-                    <Field name="titleTranslationSubGroup">
-                      <Field name="titleTranslation" />
-                      <Field name="titleTranslationLanguage" />
-                    </Field>
-                  </Field>
-                </Col>
-              </Row>
-            </Panel>
+          <Field name="titleGroup" tabular={true} label={null}>
+            <Field name="title" />
           </Field>
         </Field>
 
