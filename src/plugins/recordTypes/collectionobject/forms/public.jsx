@@ -5,6 +5,7 @@ const template = (configContext) => {
 
   const {
     Col,
+    Cols,
     Panel,
     Row,
   } = configContext.layoutComponents;
@@ -32,6 +33,10 @@ const template = (configContext) => {
           <Col>
             <Field name="briefDescriptions">
               <Field name="briefDescription" />
+            </Field>
+
+            <Field name="publishToList">
+              <Field name="publishTo" />
             </Field>
           </Col>
         </Row>
@@ -103,9 +108,28 @@ const template = (configContext) => {
         {extensions.dimension.form}
 
         <Panel name="content" collapsible>
-          <Field name="contentConcepts">
-            <Field name="contentConcept" />
-          </Field>
+          <Field name="contentDescription" />
+          <Cols>
+            <Col>
+              <Field name="contentConcepts">
+                <Field name="contentConcept" />
+              </Field>
+            </Col>
+
+            <Col>
+              <Field name="contentPersons">
+                <Field name="contentPerson" />
+              </Field>
+
+              <Field name="contentOrganizations">
+                <Field name="contentOrganization" />
+              </Field>
+
+              <Field name="contentEvents">
+                <Field name="contentEvent" />
+              </Field>
+            </Col>
+          </Cols>
         </Panel>
 
         <Panel name="bio" collapsible collapsed>
@@ -130,6 +154,13 @@ const template = (configContext) => {
           <Col>
             <Field name="objectProductionDateGroupList">
               <Field name="objectProductionDateGroup" />
+            </Field>
+
+            <Field name="techniqueGroupList">
+              <Field name="techniqueGroup">
+                <Field name="technique" />
+                <Field name="techniqueType" />
+              </Field>
             </Field>
 
             <Field name="objectProductionPlaceGroupList">
