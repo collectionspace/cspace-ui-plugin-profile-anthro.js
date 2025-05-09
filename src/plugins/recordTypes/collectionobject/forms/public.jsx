@@ -111,6 +111,10 @@ const template = (configContext) => {
               <Field name="contentConcepts">
                 <Field name="contentConcept" />
               </Field>
+
+              <Field name="contentEvents">
+                <Field name="contentEvent" />
+              </Field>
             </Col>
 
             <Col>
@@ -121,11 +125,7 @@ const template = (configContext) => {
               <Field name="contentOrganizations">
                 <Field name="contentOrganization" />
               </Field>
-
-              <Field name="contentEvents">
-                <Field name="contentEvent" />
-              </Field>
-            </Col>
+           </Col>
           </Cols>
         </Panel>
 
