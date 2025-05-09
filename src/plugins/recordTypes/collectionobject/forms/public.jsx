@@ -84,6 +84,10 @@ const template = (configContext) => {
       </Panel>
 
       <Panel name="desc" collapsible>
+        <Field name="colors">
+          <Field name="color" />
+        </Field>
+
         <Field name="materialGroupList">
           <Field name="materialGroup">
             <Field name="materialControlled" />
