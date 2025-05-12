@@ -262,26 +262,6 @@ export default (configContext) => {
                 },
               },
             },
-            anthroOwnershipAccess: {
-              [config]: {
-                messages: defineMessages({
-                  fullName: {
-                    id: 'field.collectionobjects_anthro.anthroOwnershipAccess.fullName',
-                    defaultMessage: 'Previous ownership access',
-                  },
-                  name: {
-                    id: 'field.collectionobjects_anthro.anthroOwnershipAccess.name',
-                    defaultMessage: 'Access',
-                  },
-                }),
-                view: {
-                  type: OptionPickerInput,
-                  props: {
-                    source: 'ownershipAccessLevels',
-                  },
-                },
-              },
-            },
             anthroOwnershipDateGroup: {
               [config]: {
                 dataType: DATA_TYPE_STRUCTURED_DATE,
