@@ -1,5 +1,17 @@
 # Change Log
 
+## v9.1.0
+
+v9.0.0 adds support for CollectionSpace 8.2, and requires cspace-ui version 10.
+
+### Changes
+
+- On the record editor form for Object records:
+  - The field Object Production Agent (`objectProductionAgents/objectProductionAgent`) has been added. If this version of the anthropology profile is used with a CollectionSpace server older than 8.2.0, values entered in this repeating field will not be saved.
+  - The displayed fields in the public browser template have been updated to be better aligned with what is displayed in the CollectionSpace Public Browser.
+- The `anthroOwnershipAccess` field was unused and has been removed.
+- The cspace-ui-plugin-ext-nagpra plugin has been updated to fix a bug when querying fields with the advanced search.
+
 ## v9.0.0
 
 v9.0.0 adds support for CollectionSpace 8.1, and requires cspace-ui version 10.
