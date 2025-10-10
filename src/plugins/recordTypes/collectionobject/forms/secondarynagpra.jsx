@@ -54,6 +54,10 @@ const template = (configContext) => {
             </Field>
 
             <Field name="computedCurrentLocation" />
+
+            <Field name="ethnoFileCodes" subpath="ns2:collectionobjects_anthro">
+              <Field name="ethnoFileCode" />
+            </Field>
           </Col>
         </Row>
 
@@ -231,177 +235,14 @@ const template = (configContext) => {
 
       <Panel name="desc" collapsible collapsed>
         <Row>
-          <Col>
-            <Field name="forms">
-              <Field name="form" />
-            </Field>
+          <Field name="colors">
+            <Field name="color" />
+          </Field>
 
-            <Row>
-              <Field name="copyNumber" />
-              <Field name="editionNumber" />
-            </Row>
-          </Col>
-
-          <Col>
-            <Field name="styles">
-              <Field name="style" />
-            </Field>
-
-            <Field name="colors">
-              <Field name="color" />
-            </Field>
-
-            <Field name="apparelSizes">
-              <Field name="apparelSize" />
-            </Field>
-          </Col>
+          <Field name="apparelSizes">
+            <Field name="apparelSize" />
+          </Field>
         </Row>
-
-        <Field name="physicalDescription" />
-        <Field name="distinguishingFeatures" />
-
-        <Field name="objectComponentGroupList">
-          <Field name="objectComponentGroup">
-            <Field name="objectComponentName" />
-            <Field name="objectComponentInformation" />
-          </Field>
-        </Field>
-
-        <Panel name="bio" collapsible collapsed>
-          <Cols>
-            <Col>
-              <Row>
-                <Field name="sex" />
-                <Field name="phase" />
-              </Row>
-            </Col>
-
-            <Col>
-              <InputTable name="age">
-                <Field name="ageQualifier" />
-                <Field name="age" />
-                <Field name="ageUnit" />
-              </InputTable>
-            </Col>
-          </Cols>
-
-          {extensions.naturalhistory.collectionobject.form.taxonomicIdentGroupList}
-        </Panel>
-
-        <Panel name="commingledRemains" collapsible collapsed>
-          <Field name="commingledRemainsGroupList" subpath="ns2:collectionobjects_anthro">
-            <Field name="commingledRemainsGroup">
-              <Panel>
-                <Cols>
-                  <Col>
-                    <Field name="minIndividuals" />
-                    <Field name="bone" />
-                    <Field name="side" />
-                  </Col>
-
-                  <Col>
-                    <Row>
-                      <Field name="count" />
-                      <Field name="dentition" />
-                    </Row>
-
-                    <Field name="sex" />
-                    <Field name="ageRange" />
-                  </Col>
-                </Cols>
-
-                <Field name="mortuaryTreatmentGroupList">
-                  <Field name="mortuaryTreatmentGroup">
-                    <Field name="mortuaryTreatment" />
-                    <Field name="mortuaryTreatmentNote" />
-                  </Field>
-                </Field>
-
-                <InputTable name="behrensmeyer">
-                  <Field name="behrensmeyerSingleLower" />
-                  <Field name="behrensmeyerUpper" />
-                </InputTable>
-
-                <Field name="commingledRemainsNote" />
-              </Panel>
-            </Field>
-          </Field>
-        </Panel>
-
-        <Panel name="content" collapsible collapsed>
-          <Field name="contentDescription" />
-
-          <Row>
-            <Col>
-              <Field name="contentLanguages">
-                <Field name="contentLanguage" />
-              </Field>
-
-              <Field name="contentActivities">
-                <Field name="contentActivity" />
-              </Field>
-
-              <Field name="contentConcepts">
-                <Field name="contentConcept" />
-              </Field>
-
-              <Field name="contentDateGroup" />
-
-              <Field name="contentPositions">
-                <Field name="contentPosition" />
-              </Field>
-
-              <Field name="contentObjectGroupList">
-                <Field name="contentObjectGroup">
-                  <Field name="contentObject" />
-                  <Field name="contentObjectType" />
-                </Field>
-              </Field>
-            </Col>
-
-            <Col>
-              <Field name="contentPeoples">
-                <Field name="contentPeople" />
-              </Field>
-
-              <Field name="contentPersons">
-                <Field name="contentPerson" />
-              </Field>
-
-              <Field name="contentPlaces">
-                <Field name="contentPlace" />
-              </Field>
-
-              <Field name="contentScripts">
-                <Field name="contentScript" />
-              </Field>
-
-              <Field name="contentOrganizations">
-                <Field name="contentOrganization" />
-              </Field>
-
-              <Field name="contentEventNameGroupList">
-                <Field name="contentEventNameGroup">
-                  <Field name="contentEventName" />
-                  <Field name="contentEventNameType" />
-                </Field>
-              </Field>
-
-              <Field name="contentEvents">
-                <Field name="contentEvent" />
-              </Field>
-
-              <Field name="contentOtherGroupList">
-                <Field name="contentOtherGroup">
-                  <Field name="contentOther" />
-                  <Field name="contentOtherType" />
-                </Field>
-              </Field>
-            </Col>
-          </Row>
-
-          <Field name="contentNote" />
-        </Panel>
 
         <Panel name="textInscript" collapsible collapsed>
           <Field name="textualInscriptionGroupList">
