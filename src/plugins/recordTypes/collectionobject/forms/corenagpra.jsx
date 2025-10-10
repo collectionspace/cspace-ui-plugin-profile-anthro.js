@@ -57,6 +57,19 @@ const template = (configContext) => {
           </Field>
         </Field>
 
+        <Field name="objectNameList">
+          <Field name="objectNameGroup">
+            <Field name="objectNameControlled" />
+            <Field name="objectName" />
+            <Field name="objectNameCurrency" />
+            <Field name="objectNameLevel" />
+            <Field name="objectNameSystem" />
+            <Field name="objectNameType" />
+            <Field name="objectNameLanguage" />
+            <Field name="objectNameNote" />
+          </Field>
+        </Field>
+
         <Field name="objectCountGroupList">
           <Field name="objectCountGroup">
             <Field name="objectCount" />
@@ -112,6 +125,21 @@ const template = (configContext) => {
 
       {extensions.nagpra.collectionobject.form}
       {extensions.culturalcare.collectionobject.form}
+
+      <Panel name="ownership" collapsible collapsed>
+        <Field name="anthroOwnershipGroupList" subpath="ns2:collectionobjects_anthro">
+          <Field name="anthroOwnershipGroup" label="">
+            <Field name="anthroOwner" />
+            <Field name="anthroOwnershipDateGroup" />
+            <Field name="anthroOwnershipCategory" />
+            <Field name="anthroOwnershipPlace" />
+            <Field name="anthroOwnershipMethod" />
+            <Field name="anthroOwnershipPriceCurrency" />
+            <Field name="anthroOwnershipPriceAmount" />
+            <Field name="anthroOwnershipNote" />
+          </Field>
+        </Field>
+      </Panel>
 
     </Field>
   );
