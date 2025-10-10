@@ -7,14 +7,12 @@ const template = (configContext) => {
 
   const {
     Col,
-    Cols,
     Panel,
     Row,
   } = configContext.layoutComponents;
 
   const {
     Field,
-    InputTable,
   } = configContext.recordComponents;
 
   const {
