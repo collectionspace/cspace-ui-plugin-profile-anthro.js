@@ -31,6 +31,10 @@ export default (configContext) => {
           id: 'panel.collectionobject.locality',
           defaultMessage: 'Locality Information',
         },
+        ownership: {
+          id: 'panel.collectionobject.ownership',
+          defaultMessage: 'Previous Ownership Information',
+        },
       }),
       ...extensions.culturalcare.collectionobject.messages.panel,
       ...extensions.locality.messages.panel,
