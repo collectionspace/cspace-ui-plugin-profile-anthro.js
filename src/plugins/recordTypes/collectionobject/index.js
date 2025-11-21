@@ -1,5 +1,6 @@
 import advancedSearch from './advancedSearch';
 import columns from './columns';
+import detailList from './detailList';
 import forms from './forms';
 import fields from './fields';
 import messages from './messages';
@@ -11,6 +12,7 @@ export default () => (configContext) => ({
     collectionobject: {
       advancedSearch: advancedSearch(configContext),
       columns: columns(configContext),
+      detailList: detailList(configContext),
       forms: forms(configContext),
       fields: fields(configContext),
       messages: messages(configContext),
