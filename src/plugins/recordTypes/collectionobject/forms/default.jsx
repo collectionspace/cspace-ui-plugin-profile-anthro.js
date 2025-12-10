@@ -142,6 +142,8 @@ const template = (configContext) => {
 
         {extensions.dimension.form}
 
+        <Field name="materialTechniqueDescription" subpath="ns2:collectionobjects_anthro" />
+
         <Field name="materialGroupList">
           <Field name="materialGroup">
             <Field name="materialControlled" />
