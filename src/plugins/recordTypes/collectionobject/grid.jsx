@@ -13,7 +13,7 @@ export default (configContext) => {
         if (nagpraCategoriesList) {
           const nagpraCategories = nagpraCategoriesList.get('nagpraCategory');
           if (Immutable.List.isList(nagpraCategories)) {
-            nagpraEligible = nagpraCategories.filter((category) => !!category).length > 1;
+            nagpraEligible = nagpraCategories.filter((category) => !!category).size > 1;
           } else {
             nagpraEligible = nagpraCategories && nagpraCategories.length > 0;
           }
