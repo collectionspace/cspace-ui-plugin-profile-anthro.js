@@ -20,7 +20,7 @@ export default (configContext) => {
             <FormattedMessage
               id="detailList.collectionobject.concepts"
               description="The prefix for content concept tags in the search detail view"
-              defaultMessage="Content Concepts: "
+              defaultMessage="CONCEPT TAGS: "
             />
           );
           const contentConcept = contentConcepts.get('contentConcept');
@@ -48,7 +48,7 @@ export default (configContext) => {
             <FormattedMessage
               id="detailList.collectionobject.determinations"
               description="The prefix for NAGPRA determination tags in the search detail view"
-              defaultMessage="NAGPRA Determinations: "
+              defaultMessage="NAGPRA DETERMINATION: "
             />
           );
 
