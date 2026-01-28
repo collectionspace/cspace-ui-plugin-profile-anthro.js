@@ -1,5 +1,16 @@
 # Change Log
 
+## v9.2.0
+
+v9.2.0 adds support for CollectionSpace 8.3, and requires cspace-ui version 10.
+
+### Changes
+- Adds `objectNameList`, `anthroOwnershipGroupList` to the `corenagpra` template.
+- Changes `secondarynagpra` template by removing several fields and adding `function` field.
+- Adds the `materialTechniqueDescription` to the default template.
+- Adds `nagpraDeterminations` to `tags` section.
+- Adds the `NAGPRA-eligible` tag formatter.
+
 ## v9.1.0
 
 v9.0.0 adds support for CollectionSpace 8.2, and requires cspace-ui version 10.
