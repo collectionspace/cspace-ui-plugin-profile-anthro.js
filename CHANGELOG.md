@@ -10,6 +10,7 @@ v9.2.0 adds support for CollectionSpace 8.3, and requires cspace-ui version 10.
 - Adds the `materialTechniqueDescription` to the default template.
 - Adds `nagpraDeterminations` to `tags` section.
 - Adds the `NAGPRA-eligible` tag formatter.
+- Add the `controlledContentPlaces/controlledContentPlace` repeatable field to the Object `default` template.
 
 ## v9.1.0
 
