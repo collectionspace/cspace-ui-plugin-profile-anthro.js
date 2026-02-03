@@ -438,6 +438,10 @@ const template = (configContext) => {
                 <Field name="contentPerson" />
               </Field>
 
+              <Field name="controlledContentPlaces">
+                <Field name="controlledContentPlace" />
+              </Field>
+
               <Field name="contentPlaces">
                 <Field name="contentPlace" />
               </Field>
