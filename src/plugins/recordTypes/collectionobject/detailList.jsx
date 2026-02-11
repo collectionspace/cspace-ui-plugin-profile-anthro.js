@@ -5,13 +5,13 @@ const messages = defineMessages({
     id: 'detailList.tags.collectionobject.concepts',
     description: 'The prefix for content concept tags in the search detail view',
     defaultMessage: `{count, plural,
-              one {CONCEPT TAG: }
-              other {CONCEPT TAGS: }}`,
+              one {Concept Tag: }
+              other {Concept Tags: }}`,
   },
   determination: {
     id: 'detailList.tags.collectionobject.determinations',
     description: 'The prefix for NAGPRA determination tags in the search detail view',
-    defaultMessage: 'NAGPRA DETERMINATION: {nagpraDeterminations}',
+    defaultMessage: 'NAGPRA Determination: {nagpraDeterminations}',
   },
 });
 
