@@ -14,7 +14,7 @@ v9.2.0 adds support for CollectionSpace 8.3, and requires cspace-ui version 10.
 
 ## v9.1.0
 
-v9.0.0 adds support for CollectionSpace 8.2, and requires cspace-ui version 10.
+v9.1.0 adds support for CollectionSpace 8.2, and requires cspace-ui version 10.
 
 ### Changes
 
