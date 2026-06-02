@@ -61,6 +61,7 @@ const template = (configContext) => {
             </Field>
 
             <Field name="computedCurrentLocation" />
+            <Field name="homeStorageLocation" />
 
             <Field name="ethnoFileCodes" subpath="ns2:collectionobjects_anthro">
               <Field name="ethnoFileCode" />

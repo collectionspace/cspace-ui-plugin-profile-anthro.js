@@ -1,5 +1,10 @@
 # Change Log
 
+## v9.3.0
+
+### Changes
+- Adds `homeStorageLocation` to the `default`, `corenagpra`, `secondarynagpra` templates.
+
 ## v9.2.0
 
 v9.2.0 adds support for CollectionSpace 8.3, and requires cspace-ui version 10.
