@@ -3,7 +3,7 @@
 ## v9.3.0
 
 ### Changes
-- Adds `homeStorageLocation` to the `default`, `corenagpra`, `secondarynagpra` templates.
+- Adds `homeLocationGroupList` to the `default`, `corenagpra`, `secondarynagpra` templates.
 
 ## v9.2.0
 
